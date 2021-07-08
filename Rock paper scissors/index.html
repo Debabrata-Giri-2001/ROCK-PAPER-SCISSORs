@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK,PAPER,SCISSOR</title>
+    <link rel="stylesheet" href="syt.css">
+</head>
+
+<body>
+    <center>
+        <div class="conainer-1">
+            <h1> <i>ROCK | PAPER | SCISSSOR</i></h1>
+            <div class="flex-box-rps" id="flex-rps">
+                <img id="rock" src="imageFile/rock-576669_960_720.png" alt="" height="150" width="150"
+                    onclick="rpsGame(this)">
+                <img id="paper" src="imageFile/istockphoto-516914375-170667a.jpg" alt="" height="150" width="150"
+                    onclick="rpsGame(this)">
+                <img id="scissor" src="imageFile/OIP.jpg" alt="" height="150" width="150" onclick="rpsGame(this)">
+            </div>
+        </div>
+        <br>
+        <div>
+            <Button type="button" id="resetScreen" class="btn btn-primary" onclick="resetAns()">RESET</Button>
+        </div>
+    </center>
+    <script src="ms.js"></script>
+</body>
+
+</html>
